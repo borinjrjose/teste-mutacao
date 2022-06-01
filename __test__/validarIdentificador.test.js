@@ -22,3 +22,15 @@ test('id can be composed of characters and digits', () => {
   expect(validarIdentificador('abc')).toBe(true)
   expect(validarIdentificador('j5ae')).toBe(true)
 })
+
+// New test cases
+test('id limit case 6', () => {
+  expect(validarIdentificador('abc123')).toBe(true)
+  expect(validarIdentificador('abc12')).toBe(true)
+  expect(validarIdentificador('abc1234')).toBe(false)
+})
+
+test('id limit case 1', () => {
+  expect(validarIdentificador('b')).toBe(true)
+  expect(validarIdentificador('bc')).toBe(true)
+})
