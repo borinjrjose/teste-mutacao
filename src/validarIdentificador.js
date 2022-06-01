@@ -1,5 +1,4 @@
-const isLetter = (char) => /^([a-z]|[A-Z])$/.test(char)
-const isDigit = (char) => /^([0-9])$/.test(char)
+const { isDigit, isLetter } = require('./checkDigitLetter')
 
 const validarIdentificador = (id) => {
   if (id === null) return false

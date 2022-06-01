@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1654051444173" clover="3.2.0">
-  <project timestamp="1654051444173" name="All files">
-    <metrics statements="18" coveredstatements="18" conditionals="24" coveredconditionals="24" methods="4" coveredmethods="4" elements="46" coveredelements="46" complexity="0" loc="18" ncloc="18" packages="1" files="2" classes="2"/>
+<coverage generated="1654053552848" clover="3.2.0">
+  <project timestamp="1654053552848" name="All files">
+    <metrics statements="20" coveredstatements="20" conditionals="24" coveredconditionals="24" methods="4" coveredmethods="4" elements="48" coveredelements="48" complexity="0" loc="20" ncloc="20" packages="1" files="3" classes="3"/>
     <file name="calculaTaxaDesconto.js" path="/home/jose/Documentos/HTML, CSS e JavaScript/Teste de Software/Teste de Mutação/src/calculaTaxaDesconto.js">
       <metrics statements="7" coveredstatements="7" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
@@ -12,19 +12,24 @@
       <line num="7" count="9" type="stmt"/>
       <line num="10" count="1" type="stmt"/>
     </file>
-    <file name="validarIdentificador.js" path="/home/jose/Documentos/HTML, CSS e JavaScript/Teste de Software/Teste de Mutação/src/validarIdentificador.js">
-      <metrics statements="11" coveredstatements="11" conditionals="12" coveredconditionals="12" methods="3" coveredmethods="3"/>
+    <file name="checkDigitLetter.js" path="/home/jose/Documentos/HTML, CSS e JavaScript/Teste de Software/Teste de Mutação/src/checkDigitLetter.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="1" count="12" type="stmt"/>
       <line num="2" count="2" type="stmt"/>
       <line num="4" count="1" type="stmt"/>
-      <line num="5" count="8" type="cond" truecount="2" falsecount="0"/>
-      <line num="6" count="7" type="cond" truecount="4" falsecount="0"/>
-      <line num="7" count="5" type="cond" truecount="2" falsecount="0"/>
-      <line num="9" count="4" type="stmt"/>
-      <line num="10" count="7" type="stmt"/>
-      <line num="11" count="7" type="cond" truecount="4" falsecount="0"/>
-      <line num="14" count="3" type="stmt"/>
-      <line num="17" count="1" type="stmt"/>
+    </file>
+    <file name="validarIdentificador.js" path="/home/jose/Documentos/HTML, CSS e JavaScript/Teste de Software/Teste de Mutação/src/validarIdentificador.js">
+      <metrics statements="10" coveredstatements="10" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="7" type="cond" truecount="4" falsecount="0"/>
+      <line num="6" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="4" type="stmt"/>
+      <line num="9" count="7" type="stmt"/>
+      <line num="10" count="7" type="cond" truecount="4" falsecount="0"/>
+      <line num="13" count="3" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
